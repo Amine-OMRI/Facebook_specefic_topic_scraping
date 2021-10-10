@@ -34,4 +34,4 @@ clean_code_fb_scraping.py [-h] -wdpath WDPATH -credspath CREDSPATH -topic TOPIC 
 | argument | Description |
 | --- | --- |
 | -numOfPost NUMOFPOST, -n NUMOFPOST | The requested number of post to scrape4 | 
-| -infinite** INFINITE, -i INFINITE | Scroll until the end of the page (1 = infinite) (Default is 0) | 
+| -infinite INFINITE, -i INFINITE | Scroll until the end of the page (1 = infinite) (Default is 0) | 
