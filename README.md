@@ -8,13 +8,14 @@ Scrape public Facebook posts that match a requested topic and Save the results t
 * Scrape the link of the publication
 
 ```` 
-```
 Install Requirements:
 ● cd to the directory where the requirements.txt file is located.
 ● activate your virtualenv.
 ● run: pip install -r requirements.txt in your command prompt.
+````
 
+```
 How to run it:
 clean_code_fb_scraping.py [-h] -wdpath WDPATH -credspath CREDSPATH -topic TOPIC -dbname DBNAME [-numOfPost NUMOFPOST] [-infinite INFINITE]
+
 ```
-````
