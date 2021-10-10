@@ -7,11 +7,11 @@ Scrape public Facebook posts that match a requested topic and Save the results t
 * Scrape the image(s) attached to the post
 * Scrape the link of the publication
 
+Install Requirements:
 ```` 
-0): Install Requirements:
-1): cd to the directory where the requirements.txt file is located.
-2): activate your virtualenv.
-3): run: pip install -r requirements.txt in your command prompt.
+0): cd to the directory where the requirements.txt file is located.
+1): activate your virtualenv.
+2): run: pip install -r requirements.txt in your command prompt.
 ````
 How to run it:
 ```
