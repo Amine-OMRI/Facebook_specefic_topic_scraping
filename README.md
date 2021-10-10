@@ -8,14 +8,24 @@ Scrape public Facebook posts that match a requested topic and Save the results t
 * Scrape the link of the publication
 
 ```` 
-Install Requirements:
-● cd to the directory where the requirements.txt file is located.
-● activate your virtualenv.
-● run: pip install -r requirements.txt in your command prompt.
+0): Install Requirements:
+1): cd to the directory where the requirements.txt file is located.
+2): activate your virtualenv.
+3): run: pip install -r requirements.txt in your command prompt.
 ````
-
-```
 How to run it:
+```
 clean_code_fb_scraping.py [-h] -wdpath WDPATH -credspath CREDSPATH -topic TOPIC -dbname DBNAME [-numOfPost NUMOFPOST] [-infinite INFINITE]
 
 ```
+
+* Required arguments:
+
+**-wdpath** WDPATH, -w WDPATH The webdriver path
+**-credspath** CREDSPATH, -c CREDSPATH The facebook Credentials path
+**-topic** TOPIC, -t TOPIC The requested topic you wanna scrape
+**-dbname** DBNAME, -d DBNAME The name of the mongodb database
+
+* Optional arguments:
+**-numOfPost** NUMOFPOST, -n NUMOFPOST The requested number of post to scrape4
+**-infinite** INFINITE, -i INFINITE Scroll until the end of the page (1 = infinite) (Default is 0)
