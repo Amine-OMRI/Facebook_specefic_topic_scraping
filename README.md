@@ -21,11 +21,11 @@ clean_code_fb_scraping.py [-h] -wdpath WDPATH -credspath CREDSPATH -topic TOPIC 
 
 * Required arguments:
 
-**-wdpath** WDPATH, -w WDPATH The webdriver path
-**-credspath** CREDSPATH, -c CREDSPATH The facebook Credentials path
-**-topic** TOPIC, -t TOPIC The requested topic you wanna scrape
-**-dbname** DBNAME, -d DBNAME The name of the mongodb database
+**-wdpath** WDPATH, -w WDPATH The webdriver path </br>
+**-credspath** CREDSPATH, -c CREDSPATH The facebook Credentials path</br>
+**-topic** TOPIC, -t TOPIC The requested topic you wanna scrape</br>
+**-dbname** DBNAME, -d DBNAME The name of the mongodb database</br>
 
 * Optional arguments:
-**-numOfPost** NUMOFPOST, -n NUMOFPOST The requested number of post to scrape4
-**-infinite** INFINITE, -i INFINITE Scroll until the end of the page (1 = infinite) (Default is 0)
+**-numOfPost** NUMOFPOST, -n NUMOFPOST The requested number of post to scrape4</br>
+**-infinite** INFINITE, -i INFINITE Scroll until the end of the page (1 = infinite) (Default is 0)</br>
